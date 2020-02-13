@@ -1,0 +1,92 @@
+body{
+  margin: 2em;
+  align-items: center;
+  text-align: center;
+  font-family: 'Sofia';
+  background-color: #e38e0e;
+  color: black;
+}
+h1{
+  text-align: center;
+  font-size: 4em;
+}
+button{
+  margin: 1em;
+  border-radius: 5em;
+  font-size: 75%;
+  padding: 1em;
+  font-family: 'Sofia';
+}
+button:hover{
+  margin: 1em;
+  border-radius: 5em;
+  font-size: 75%;
+  padding: 1em;
+  font-family: 'Sofia';
+  background-color: black;
+  color: white;
+
+}
+footer{
+  padding: 2em;
+}
+
+#butcherPig{
+  width: 12em;
+  }
+#pigImage{
+  text-align: center;
+}
+#inputPhrase{
+  font-size: 1em;
+  height: 5em;
+  width: 20em;
+  text-align: center;
+  font-family: 'Flamenco' ;
+  border-radius: 5em;
+}
+#result{
+    font-size: 35px;
+    font-family: 'Flamenco';
+
+}
+.box{
+  background-color: rgba(97, 34, 156, 0.65);
+  color: #fff;
+  border-radius: .2em;
+  padding: 1em;
+  font-size: 150%;
+  /* background-image: url("https://cdn.pixabay.com/photo/2016/06/29/09/34/pork-1486384_960_720.png");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: luminosity; */
+}
+.header{
+  background-color: #FFF;
+  padding: 1em;
+}
+#boximage{
+    width: 300px;
+}
+#boximage:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.2s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
